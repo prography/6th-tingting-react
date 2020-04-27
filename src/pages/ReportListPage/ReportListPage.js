@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import Report from "../components/Report";
+import Report from "../../components/Report";
  
 class ReportListPage extends React.Component {
     state = {

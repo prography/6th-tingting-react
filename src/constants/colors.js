@@ -1,0 +1,1 @@
+export const KEY_COLOR = "#B0EBBD"

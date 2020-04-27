@@ -1,8 +1,8 @@
 import React from 'react';
 import axios from "axios";
-import User from "../components/User";
+import User from "../../components/User";
 
-class PictureAuthPage extends React.Component {
+class PhotoListPage extends React.Component {
   state = {
     isLoading : true,
     users: []
@@ -44,4 +44,4 @@ class PictureAuthPage extends React.Component {
   }
 }
 
-export default PictureAuthPage;
+export default PhotoListPage;
