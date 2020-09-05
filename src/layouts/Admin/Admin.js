@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 
 import Header from "../../components/Header";
-import SideBar from "../../components/SideBar";
+import SideBar from "../../containers/SideBarContainer";
 // Footer 추가
 
 import routes from "../../routes";

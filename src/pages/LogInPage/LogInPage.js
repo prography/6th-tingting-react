@@ -1,9 +1,8 @@
 import React from "react";
+import Presenter from "./Presenter";
 
-class LogInPage extends React.Component {
-    render(){
-        return <h1> Login </h1>
-    }
-}
+const LoginPage = props => {
+	return <Presenter />;
+};
 
-export default LogInPage;
+export default LoginPage;
